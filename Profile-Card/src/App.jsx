@@ -1,6 +1,7 @@
 import Footer from "./components/Footer"
+import Form from "./components/Form"
 import Header from "./components/Header"
-import ProfileCard from "./components/ProfileCard"
+
 
 
 function App() {
@@ -10,8 +11,11 @@ function App() {
     <>
    
        <Header/>
-      <ProfileCard/>
+       <Form/>
+      
       <Footer/>
+
+      
    
       
     </>
